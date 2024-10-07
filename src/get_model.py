@@ -1,10 +1,11 @@
 from openai import OpenAI
 from constants import *
+import os
 
 import sys
 
 # create an openai client
-client = OpenAI(api_key=API_KEY)
+client = OpenAI(api_key=os.getenv(API_KEY))
 
 def get_model(prompt):
     '''

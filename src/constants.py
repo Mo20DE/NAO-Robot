@@ -20,7 +20,7 @@ SCRIPT_NAME_STT = 'recognize_sentence.py'
 MAX_TOKENS = 500
 TEMPERATURE = 0.5
 GPT_MODELS = {'GPT-3': 'gpt-3.5-turbo-1106', 'GPT-4': 'gpt-4-vision-preview'}
-API_KEY = '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'
+API_KEY = None
 
 PHOTO_KEYWORD = 'snap'
 
