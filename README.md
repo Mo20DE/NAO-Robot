@@ -12,7 +12,7 @@ The system is designed to handle two primary types of tasks:
 
 A proxy receives voice commands and selects between GPT-3 (fast & text-based) and GPT-4 (capable of image processing). If needed, the robot captures an image and sends it along with the prompt to OpenAI’s backend. The response is processed and forwarded to the NAO robot, which then speaks and/or performs corresponding movements.
 
-![Picture](Code Architecture.png)
+![Picture](Code%20Architecture.png)
 
 ### GET_MODEL_CONTEXT
 
